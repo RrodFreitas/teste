@@ -117,12 +117,8 @@
 			children = (
 				6F3CBB0B1986C5A000C981CE /* AppDelegate.h */,
 				6F3CBB0C1986C5A000C981CE /* AppDelegate.m */,
-				6F3CBB0E1986C5A000C981CE /* Main.storyboard */,
-				6F3CBB111986C5A000C981CE /* MasterViewController.h */,
-				6F3CBB121986C5A000C981CE /* MasterViewController.m */,
-				6F3CBB141986C5A000C981CE /* DetailViewController.h */,
-				6F3CBB151986C5A000C981CE /* DetailViewController.m */,
-				6F3CBB171986C5A000C981CE /* Images.xcassets */,
+				6FCBC94C1986D3F20082CA41 /* Resources */,
+				6FCBC94B1986D3D40082CA41 /* ViewControllers */,
 				6F3CBB031986C5A000C981CE /* Supporting Files */,
 			);
 			path = exemplo22807;
@@ -155,6 +151,26 @@
 				6F3CBB271986C5A000C981CE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6FCBC94B1986D3D40082CA41 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F3CBB111986C5A000C981CE /* MasterViewController.h */,
+				6F3CBB121986C5A000C981CE /* MasterViewController.m */,
+				6F3CBB141986C5A000C981CE /* DetailViewController.h */,
+				6F3CBB151986C5A000C981CE /* DetailViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6FCBC94C1986D3F20082CA41 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F3CBB0E1986C5A000C981CE /* Main.storyboard */,
+				6F3CBB171986C5A000C981CE /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -462,6 +478,7 @@
 				6F3CBB301986C5A000C981CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F3CBB311986C5A000C981CE /* Build configuration list for PBXNativeTarget "exemplo22807Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +487,7 @@
 				6F3CBB331986C5A000C981CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
